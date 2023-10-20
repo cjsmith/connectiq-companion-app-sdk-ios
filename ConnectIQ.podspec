@@ -16,5 +16,6 @@ By downloading the ConnectIQ Mobile SDK you accept our License Agreement.
     s.platform = :ios
 #    s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'
+    s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end
 
